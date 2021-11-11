@@ -367,6 +367,12 @@ img{
         margin: auto;
         text-align: center;
     }
+    .steps{
+        flex-direction: column;
+    }
+    .step{
+        width: 100%;
+    }
 }
 
 @media (max-width: 900px) and (min-width:500px) {
