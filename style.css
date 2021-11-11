@@ -250,6 +250,10 @@ img{
     background: white;
 }
 
+.how-to-buy .section-text{
+    padding: 20px;
+}
+
 .how-to-buy .section-text .heading{
     color: black;
 }
