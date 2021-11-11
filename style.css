@@ -261,6 +261,10 @@ img{
     transform: translateY(0%);
 }
 
+.steps{
+    padding: 10px 5.33vw;
+}
+
 .step{
     width: 30%;
     padding: 20px;
