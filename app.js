@@ -76,7 +76,7 @@ timeline3.fromTo('.about .background', .25, {
 });
 
 timeline4.to('.random .main-section-text h1', .25, {
-    x: "-13vw"
+    x: "-15vw"
 })
 
 window.addEventListener('load', ()=>{
