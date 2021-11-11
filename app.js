@@ -35,6 +35,12 @@ let timeline4 = gsap.timeline({
         pin:true
     }
 });
+let timeline5 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".how-to-buy",
+        start: "-50%",
+    }
+});
 
 timeline.to('.hero-head h1', .25, { 
     y: 0, 
@@ -77,6 +83,15 @@ timeline3.fromTo('.about .background', .25, {
 
 timeline4.to('.random .main-section-text h1', .25, {
     x: "-15vw"
+})
+
+timeline5.to('.how-to-buy .section-text .heading h1', .25, {
+    y: 0, 
+    opacity: 1,
+    ease: 'power4.out',
+    skewY: 10
+}).to('.how-to-buy .section-text .heading h1', .25, {
+    skewY: 0
 })
 
 window.addEventListener('load', ()=>{

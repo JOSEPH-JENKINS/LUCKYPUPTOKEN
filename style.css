@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     color: #fafafa;
     background: #030363;
     font-size: 14px;
     font-family: "Raleway", sans-serif;
+}
+
+footer{
+    padding: 20px;
 }
 
 a{
@@ -250,7 +258,7 @@ img{
 }
 
 .how-to-buy .section-text{
-    padding: 30px 20px;
+    padding: 30px 5.33vw;
 }
 
 .how-to-buy .section-text .heading{
@@ -258,7 +266,8 @@ img{
 }
 
 .how-to-buy .section-text .heading h1{
-    transform: translateY(0%);
+    font-size: 3.33vw;
+    opacity: 0;
 }
 
 .steps{
@@ -375,6 +384,9 @@ img{
     .step .number{
         font-size: 6.4vw;
         transform: translate(-10px,-20px);
+    }
+    .how-to-buy .section-text .heading h1{
+        font-size: 7.33vw;
     }
 }
 
