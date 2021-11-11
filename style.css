@@ -282,7 +282,7 @@ img{
     opacity: .5;
     top: 0;
     left: 0;
-    transform: translateY(-20px) translateX(-10px);
+    transform: translateY(-50px) translateX(-20px);
 }
 
 .step .details{
