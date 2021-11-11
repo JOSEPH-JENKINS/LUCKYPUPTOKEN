@@ -266,7 +266,7 @@ img{
     padding: 20px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 15px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 0, 0.1);
     border: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
@@ -276,6 +276,9 @@ img{
     font-size: 2.3vw;
     position: absolute;
     opacity: .5;
+    top: 0;
+    left: 0;
+    transform: translateY(-20px) translateX(-10px);
 }
 
 .step .details{
