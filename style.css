@@ -222,6 +222,7 @@ img{
 
 .section{
     height: calc((var(--vh, 1vh)*100));
+    width: 100%;
 }
 
 @media (max-width: 500px){
