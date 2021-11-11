@@ -34,6 +34,7 @@ h1.styled{
 .align-center{ align-items: center; }
 .justify-center{ justify-content: center; }
 .flex-1{ flex: 1; }
+.flex-wrap{ flex-wrap: wrap; }
 
 .header{
     border-bottom: 1px solid #fafafa;
@@ -258,6 +259,15 @@ img{
 
 .how-to-buy .section-text .heading h1{
     transform: translateY(0%);
+}
+
+.step{
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
 }
 
 @media (max-width: 500px){
