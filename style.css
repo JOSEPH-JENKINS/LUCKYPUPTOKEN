@@ -233,7 +233,9 @@ img{
     overflow: hidden;
 }
 
-.random .main-section-text p{
+.random .main-section-text .paragraph{
+    width: 60%;
+    margin: auto;
     text-align: center;
     font-size: 15px;
 }
@@ -293,6 +295,11 @@ img{
     .section-text .paragraph{
         width: 90%;
         margin-left: auto;
+    }
+    .random .main-section-text .paragraph{
+        width: 95%;
+        margin: auto;
+        text-align: center;
     }
 }
 
