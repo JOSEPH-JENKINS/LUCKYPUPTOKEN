@@ -8,7 +8,6 @@ body{
     width: 100%;
     color: #fafafa;
     background: #030363;
-    height: calc(var(--vh, 1vh)*100);
     font-size: 14px;
     font-family: "Raleway", sans-serif;
 }
