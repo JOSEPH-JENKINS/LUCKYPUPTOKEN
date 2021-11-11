@@ -372,6 +372,10 @@ img{
     .step{
         width: 100%;
     }
+    .step .number{
+        font-size: 6.4vw;
+        transform: translate(-5px,-10px);
+    }
 }
 
 @media (max-width: 900px) and (min-width:500px) {
