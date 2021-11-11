@@ -220,6 +220,10 @@ img{
     margin-bottom: 30px;
 }
 
+.section{
+    height: calc((var(--vh, 1vh)*100));
+}
+
 @media (max-width: 500px){
     body{
         font-size: 16px;
