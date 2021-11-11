@@ -299,6 +299,13 @@ img{
     margin-bottom: 20px;
 }
 
+.subset{
+    font-size: 11px;
+    background: #eee;
+    padding: 5px;
+    border-radius: 20px;
+}
+
 @media (max-width: 500px){
     body{
         font-size: 16px;
