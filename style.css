@@ -272,12 +272,19 @@ img{
     margin-bottom: 20px;
 }
 
+.step .number{
+    font-size: 2.3vw;
+    position: absolute;
+    opacity: .5;
+}
+
 .step .details{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 @media (max-width: 500px){
