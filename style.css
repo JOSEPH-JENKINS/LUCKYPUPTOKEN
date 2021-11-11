@@ -273,7 +273,7 @@ img{
     background: rgb(255, 255, 0);
     border: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .step .number{
