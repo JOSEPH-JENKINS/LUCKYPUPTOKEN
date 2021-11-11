@@ -374,7 +374,7 @@ img{
     }
     .step .number{
         font-size: 6.4vw;
-        transform: translate(-5px,-10px);
+        transform: translate(-10px,-20px);
     }
 }
 
