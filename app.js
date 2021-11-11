@@ -26,6 +26,15 @@ let timeline3 = gsap.timeline({
         pin:true
     }
 });
+let timeline4 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".random",
+        start: "0%",
+        end: "100%",
+        scrub: 1,
+        pin:true
+    }
+});
 
 timeline.to('.hero-head h1', .25, { 
     y: 0, 
@@ -65,6 +74,10 @@ timeline3.fromTo('.about .background', .25, {
         amount: .25
     }
 });
+
+timeline4.to('.random .main-section-text', .25, {
+    x: -50
+})
 
 window.addEventListener('load', ()=>{
     const verticalHeight = window.innerHeight * 0.01;
