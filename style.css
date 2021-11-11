@@ -252,7 +252,10 @@ img{
 
 .how-to-buy .section-text .heading{
     color: black;
-    z-index: 999;
+}
+
+.how-to-buy .section-text .heading h1{
+    transform: translateY(0%);
 }
 
 @media (max-width: 500px){
