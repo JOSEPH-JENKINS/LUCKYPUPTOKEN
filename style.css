@@ -225,6 +225,11 @@ img{
     width: 100%;
 }
 
+.random .main-section-text{
+    font-size: 9.8056vw;
+    overflow: hidden;
+}
+
 @media (max-width: 500px){
     body{
         font-size: 16px;
