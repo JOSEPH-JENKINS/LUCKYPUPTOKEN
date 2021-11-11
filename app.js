@@ -75,7 +75,7 @@ timeline3.fromTo('.about .background', .25, {
     }
 });
 
-timeline4.to('.random .main-section-text', .25, {
+timeline4.to('.random .main-section-text h1', .25, {
     x: -50
 })
 
